@@ -1,0 +1,6 @@
+image: gioelenegri/ticketanalyticsmicroservice:0.0.1-SNAPSHOT
+dbms: none
+healthCheckPath: "/management/health"
+roles:
+  - "ticketanalyticsmicroservice-admin"
+# entando-needle-descriptor-add-roles - Entando blueprint will add roles here
